@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 80px;
+}
+
+.flame {
+    margin-right: 10px;
+    color: white;
+}
+
+.hurensohn {
+    color: rgb(1, 224, 1);
+    text-decoration: none;
+}
+.hurensohn:hover{
+    color: rgb(255, 22, 22);
+    text-decoration: none;
+    cursor: grab;
+}
+
+.hurensohn:active{
+    cursor:grabbing;
+}
+
+.gif-container {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 100;
+}
+
+.gif-container img {
+    width: 100px;
+    transform-origin: center center;
+}
